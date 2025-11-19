@@ -1,9 +1,9 @@
 class Ghui < Formula
   desc "A TUI built on top of gh"
   homepage "https://github.com/macklinu/ghui"
-  version "0.2.2"
-  url "https://github.com/macklinu/ghui/releases/download/v0.2.2/ghui-darwin-arm64"
-  sha256 "cb515ff42f9f65bb8812fb680d864ee745fea3261f5a75e2f332aeff4a55ca52"
+  version "0.3.0"
+  url "https://github.com/macklinu/ghui/releases/download/v0.3.0/ghui-darwin-arm64"
+  sha256 "4002956e415f7c95da6f10b9eec82b7ff03731f9c01eef9908781d1f5c90da40"
               
   def install
     bin.install "ghui-darwin-arm64" => "ghui"
